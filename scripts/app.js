@@ -1,15 +1,22 @@
 // app object
 let app = {
 
+    audioPlaying: false,
+
     // page elements
     elements: {
         body: $("body"),
         nav: $("nav"),
         scrollTopButton: $(".scroll-to-top"),
+        audio: $(".audio"),
     },
 
     // app functions
     functions: {
+
+        audioToggle: () => {
+            app.isPlaying ? app.elements.audio.pause() : app.elements.audio.play();
+        },
 
         // smoothly scroll to top function
         scrollTop: () => {
@@ -111,5 +118,13 @@ let app = {
 
 // initialize the app
 $(document).ready(() => {
+
     app.init();
+
+    app.elements.audio.onplaying = function() {
+        app.audioPlaying = true;
+    };
+    app.elements.audio.onpause = function() {
+        app.audioPlaying = false;
+    };
 });
