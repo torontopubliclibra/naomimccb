@@ -411,6 +411,11 @@ body {
     overflow-y: hidden;
   }
 }
+@media only screen and (max-width: 970px) {
+  body {
+    width: 100vw;
+  }
+}
 body.about {
   background-color: #AE5C70;
 }
@@ -493,7 +498,7 @@ footer {
   bottom: 0;
   width: 100%;
   position: absolute;
-  margin: 20px;
+  margin: 20px 0;
 }
 footer .wrapper {
   display: flex;
@@ -527,6 +532,6 @@ footer .wrapper {
     width: 95%;
   }
   footer {
-    margin: 30px;
+    margin: 30px 0;
   }
 }

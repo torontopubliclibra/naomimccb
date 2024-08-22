@@ -16,6 +16,10 @@ body {
             overflow-y: hidden;
         }
     }
+    
+    @media only screen and (max-width: $tablet) {
+        width: 100vw;
+    }
 
     &.about {
         background-color: $color1;
@@ -109,7 +113,7 @@ footer {
         align-items: center;
         gap: 20px;
     }
-    margin: 20px;
+    margin: 20px 0;
 }
 
 @media only screen and (max-width: $tablet) {
@@ -138,6 +142,6 @@ footer {
         width: 95%;
     }
     footer {
-        margin: 30px;
+        margin: 30px 0;
     }
 }
