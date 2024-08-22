@@ -438,6 +438,11 @@ body.about {
 .coming-soon:hover {
   font-style: normal;
 }
+@media only screen and (max-width: 768px) {
+  .coming-soon {
+    font-size: 2rem;
+  }
+}
 
 header {
   height: 350px;
