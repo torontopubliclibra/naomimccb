@@ -16,6 +16,10 @@ body {
             overflow-y: hidden;
         }
     }
+
+    &.about {
+        background-color: $color1;
+    }
 }
 
 #bg-video {
@@ -33,6 +37,14 @@ body {
     max-width: 1260px;
     width: 90%;
     margin: 0 auto;
+}
+
+.coming-soon {
+    width: 100%;
+    font-size: 40px;
+    &:hover {
+        font-style: normal;
+    }
 }
 
 // header styles

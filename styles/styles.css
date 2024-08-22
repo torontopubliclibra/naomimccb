@@ -274,16 +274,16 @@ hr, p, img, ul, li, a, blockquote, form, input, textarea, button, label, select,
   src: url(/assets/fonts/Jacquard_12_Charted/Jacquard12Charted-Regular.ttf) format("truetype");
   font-display: swap;
 }
-a {
+a, .button {
   color: #FEF5EA;
   font-style: normal;
 }
-a:hover {
+a:hover, .button:hover {
   transition: font-style 1s;
   font-style: italic;
 }
 @media only screen and (max-width: 768px) {
-  a:hover {
+  a:hover, .button:hover {
     font-style: normal;
   }
 }
@@ -295,7 +295,7 @@ body {
   font-weight: 400;
   color: #FEF5EA;
 }
-body a {
+body a, body .button {
   color: #FEF5EA;
 }
 @media only screen and (max-width: 970px) {
@@ -411,6 +411,9 @@ body {
     overflow-y: hidden;
   }
 }
+body.about {
+  background-color: #AE5C70;
+}
 
 #bg-video {
   z-index: -50;
@@ -426,6 +429,14 @@ body {
   max-width: 1260px;
   width: 90%;
   margin: 0 auto;
+}
+
+.coming-soon {
+  width: 100%;
+  font-size: 40px;
+}
+.coming-soon:hover {
+  font-style: normal;
 }
 
 header {

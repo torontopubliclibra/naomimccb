@@ -28,7 +28,7 @@ $font2: 'Cormorant-Italic',
 sans-serif;
 $font3: 'Jacquard 12 Charted', serif;
 
-a {
+a, .button {
   color: $white;
   font-style: normal;
 
@@ -50,7 +50,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: $white;
-  a {
+  a, .button {
     color: $white;
   }
 
