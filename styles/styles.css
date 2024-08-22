@@ -298,11 +298,6 @@ body {
 body a, body .button {
   color: #FEF5EA;
 }
-@media only screen and (max-width: 970px) {
-  body {
-    font-size: 16px;
-  }
-}
 
 h1, h2, h3, h4 {
   color: #FEF5EA;
@@ -353,7 +348,7 @@ footer {
 
 @media only screen and (max-width: 970px) {
   header .heading h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   header .heading h2 {
     font-size: 1.75rem;
@@ -371,7 +366,7 @@ footer {
     text-align: left;
   }
   header .heading h1 {
-    font-size: 3rem;
+    font-size: 4.5rem;
   }
   footer p, footer a {
     font-size: 1.1rem;
@@ -438,7 +433,7 @@ body.about {
 
 .coming-soon {
   width: 100%;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 .coming-soon:hover {
   font-style: normal;
