@@ -610,6 +610,11 @@ body.about main h2 {
   margin-bottom: 15px;
   color: #1E1D20;
 }
+@media only screen and (max-width: 970px) {
+  body.about main h2 {
+    font-size: 4rem;
+  }
+}
 body.about main p {
   line-height: 1.5;
 }

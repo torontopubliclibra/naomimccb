@@ -219,6 +219,10 @@ body.about {
             margin: 0;
             margin-bottom: 15px;
             color: $black;
+
+            @media only screen and (max-width: $tablet) {
+                font-size: 4rem;
+            }
         }
 
         p {
