@@ -155,6 +155,11 @@ body.about {
             margin-bottom: -15px;
             margin-top: -25px;
 
+            a {
+                color: $black;
+                font-weight: 500;
+            }
+
             @media only screen and (max-width: $tablet) {
                 margin: 20px 0;
                 text-align: left;
