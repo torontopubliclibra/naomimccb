@@ -31,7 +31,7 @@ $font3: 'Jacquard 12 Charted', serif;
 a, .button {
   color: $white;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
 
   &:hover {
     transition: font-style 1s;
@@ -49,7 +49,6 @@ body {
   font-family: $font1;
   letter-spacing: 0.4px;
   font-size: 18px;
-  font-weight: 600;
   color: $white;
   a, .button {
     color: $white;

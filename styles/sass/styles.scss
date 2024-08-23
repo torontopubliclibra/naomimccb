@@ -112,7 +112,6 @@ footer {
         justify-content: center;
         align-items: center;
         gap: 20px;
-        font-weight: 600;
     }
     margin: 20px 0;
 }
@@ -158,7 +157,6 @@ body.default {
 
             a {
                 color: $black;
-                font-weight: 500;
             }
 
             @media only screen and (max-width: $tablet) {

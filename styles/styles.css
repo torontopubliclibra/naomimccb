@@ -280,7 +280,7 @@ hr, p, img, ul, li, a, blockquote, form, input, textarea, button, label, select,
 a, .button {
   color: #FEF5EA;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
 }
 a:hover, .button:hover {
   transition: font-style 1s;
@@ -296,7 +296,6 @@ body {
   font-family: "Cormorant", serif;
   letter-spacing: 0.4px;
   font-size: 18px;
-  font-weight: 600;
   color: #FEF5EA;
 }
 body a, body .button {
@@ -509,7 +508,6 @@ footer .wrapper {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  font-weight: 600;
 }
 
 body.default {
@@ -555,7 +553,6 @@ body.default header h1 {
 }
 body.default header h1 a {
   color: #1E1D20;
-  font-weight: 500;
 }
 @media only screen and (max-width: 970px) {
   body.default header h1 {
