@@ -428,7 +428,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1260px;
+  max-width: 1600px;
   width: 90%;
   margin: 0 auto;
 }
@@ -644,7 +644,6 @@ body.default footer {
 body.default footer .wrapper {
   align-items: flex-start;
   width: 95%;
-  max-width: unset;
 }
 @media only screen and (max-width: 970px) {
   body.default footer .wrapper {
