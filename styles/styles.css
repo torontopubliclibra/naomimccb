@@ -503,6 +503,7 @@ footer .wrapper {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  font-weight: 600;
 }
 
 body.about {
@@ -584,6 +585,7 @@ body.about header nav ul {
 }
 body.about header nav ul li {
   font-size: 1.25rem;
+  font-weight: 600;
   text-transform: lowercase;
   color: #1E1D20;
 }
@@ -624,6 +626,7 @@ body.about main h2 {
 }
 body.about main p {
   line-height: 1.5;
+  font-weight: 600;
 }
 body.about footer {
   position: unset;
