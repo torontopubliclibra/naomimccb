@@ -512,6 +512,7 @@ body.about {
 @media only screen and (max-width: 970px) {
   body.about {
     background-size: cover;
+    background-position: 15%;
   }
 }
 body.about header {
