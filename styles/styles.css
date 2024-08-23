@@ -307,7 +307,7 @@ h1, h2, h3, h4 {
 }
 
 .button {
-  background-color: rgba(174, 92, 112, 0.4);
+  background-color: rgba(209, 151, 165, 0.4);
   font-family: "Jacquard 12 Charted", serif;
   font-size: 4rem;
   text-decoration: none;
@@ -604,7 +604,7 @@ body.default header nav ul li.selected {
   text-decoration: line-through;
 }
 body.default main {
-  background-color: rgba(162, 162, 212, 0.8);
+  background-color: rgba(186, 186, 218, 0.8);
   width: 35%;
   min-width: 500px;
   margin-left: auto;
@@ -617,9 +617,11 @@ body.default main {
 }
 @media only screen and (max-width: 970px) {
   body.default main {
-    background-color: rgba(162, 162, 212, 0.9);
+    background-color: rgba(186, 186, 218, 0.9);
     width: 90%;
     min-width: 90%;
+    margin-top: 15%;
+    margin-bottom: 25%;
   }
 }
 body.default main h2 {
@@ -655,6 +657,7 @@ body.teaching {
   background-image: url("/assets/images/naomi-teaching.jpg");
 }
 body.teaching main {
+  background-color: rgba(254, 245, 234, 0.8);
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -667,6 +670,7 @@ body.listen {
   background-image: url("/assets/images/naomi-listen.jpg");
 }
 body.listen main {
+  background-color: rgba(209, 151, 165, 0.8);
   width: 40%;
   margin-left: auto;
   margin-right: 5%;
@@ -679,6 +683,7 @@ body.events {
   background-image: url("/assets/images/naomi-events.jpeg");
 }
 body.events main {
+  background-color: rgba(254, 245, 234, 0.8);
   width: 85%;
   margin-left: auto;
   margin-right: auto;

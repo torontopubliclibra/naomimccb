@@ -212,7 +212,7 @@ body.default {
     }
 
     main {
-        background-color: rgba(#A2A2D4, 0.8);
+        background-color: rgba($color2, 0.8);
         width: 35%;
         min-width: 500px;
         margin-left: auto;
@@ -224,9 +224,11 @@ body.default {
         color: $black;
 
         @media only screen and (max-width: $tablet) {
-            background-color: rgba(#A2A2D4, 0.9);
+            background-color: rgba($color2, 0.9);
             width: 90%;
             min-width: 90%;
+            margin-top: 15%;
+            margin-bottom: 25%;
         }
 
         h2 {
@@ -264,6 +266,7 @@ body.teaching {
     background-image: url("/assets/images/naomi-teaching.jpg");
 
     main {
+        background-color: rgba($white, 0.8);
         width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -278,6 +281,7 @@ body.listen {
     background-image: url("/assets/images/naomi-listen.jpg");
 
     main {
+        background-color: rgba($color1, 0.8);
         width: 40%;
         margin-left: auto;
         margin-right: 5%;
@@ -292,6 +296,7 @@ body.events {
     background-image: url("/assets/images/naomi-events.jpeg");
 
     main {
+        background-color: rgba($white, 0.8);
         width: 85%;
         margin-left: auto;
         margin-right: auto;
