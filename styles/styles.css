@@ -525,6 +525,7 @@ body.about header {
 }
 @media only screen and (max-width: 970px) {
   body.about header {
+    background-color: rgba(254, 245, 234, 0.95);
     position: sticky;
     width: 100%;
     top: 0;
@@ -615,6 +616,7 @@ body.about main {
 }
 @media only screen and (max-width: 970px) {
   body.about main {
+    background-color: rgba(162, 162, 212, 0.9);
     width: 90%;
     min-width: 90%;
   }
