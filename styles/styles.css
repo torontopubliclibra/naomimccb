@@ -277,6 +277,7 @@ hr, p, img, ul, li, a, blockquote, form, input, textarea, button, label, select,
 a, .button {
   color: #FEF5EA;
   font-style: normal;
+  font-weight: 600;
 }
 a:hover, .button:hover {
   transition: font-style 1s;
@@ -292,7 +293,7 @@ body {
   font-family: "Cormorant", serif;
   letter-spacing: 0.4px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   color: #FEF5EA;
 }
 body a, body .button {
@@ -323,13 +324,15 @@ header .heading {
 }
 header .heading h1 {
   font-size: 5.5rem;
-  font-weight: 400;
 }
 header .heading h2 {
   font-family: "Cormorant-Italic", sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 1;
+}
+header .heading p {
+  font-weight: 400;
 }
 header .heading ul li {
   font-size: 1.5rem;
@@ -585,7 +588,6 @@ body.about header nav ul {
 }
 body.about header nav ul li {
   font-size: 1.25rem;
-  font-weight: 600;
   text-transform: lowercase;
   color: #1E1D20;
 }
@@ -626,7 +628,6 @@ body.about main h2 {
 }
 body.about main p {
   line-height: 1.5;
-  font-weight: 600;
 }
 body.about footer {
   position: unset;
