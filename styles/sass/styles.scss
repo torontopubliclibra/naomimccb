@@ -104,6 +104,8 @@ header {
 footer {
     z-index: -2;
     width: 100%;
+    position: absolute;
+    bottom: 0;
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -223,14 +225,17 @@ body.about {
         }
     }
 
-    footer .wrapper {
-        align-items: flex-start;
-        width: 95%;
-        max-width: unset;
-
-        @media only screen and (max-width: $tablet) {
-            width: 90%;
-            align-items: center;
+    footer {
+        position: unset;
+        .wrapper {
+            align-items: flex-start;
+            width: 95%;
+            max-width: unset;
+    
+            @media only screen and (max-width: $tablet) {
+                width: 90%;
+                align-items: center;
+            }
         }
     }
 }

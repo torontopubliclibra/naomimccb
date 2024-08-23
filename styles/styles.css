@@ -493,6 +493,8 @@ header .landing ul li {
 footer {
   z-index: -2;
   width: 100%;
+  position: absolute;
+  bottom: 0;
   margin: 20px 0;
 }
 footer .wrapper {
@@ -609,6 +611,9 @@ body.about main h2 {
 }
 body.about main p {
   line-height: 1.5;
+}
+body.about footer {
+  position: unset;
 }
 body.about footer .wrapper {
   align-items: flex-start;
