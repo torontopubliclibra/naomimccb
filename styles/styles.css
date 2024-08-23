@@ -652,7 +652,7 @@ body.default footer .wrapper {
 }
 
 body.teaching {
-  background-image: url("/assets/images/clarinet.jpg");
+  background-image: url("/assets/images/naomi-teaching.jpg");
 }
 body.teaching main {
   width: 80%;
@@ -660,6 +660,30 @@ body.teaching main {
   margin-right: auto;
 }
 body.teaching main a {
+  color: #1E1D20;
+}
+
+body.listen {
+  background-image: url("/assets/images/naomi-listen.jpg");
+}
+body.listen main {
+  width: 40%;
+  margin-left: auto;
+  margin-right: 5%;
+}
+body.listen main a {
+  color: #1E1D20;
+}
+
+body.events {
+  background-image: url("/assets/images/naomi-events.jpeg");
+}
+body.events main {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body.events main a {
   color: #1E1D20;
 }
 
