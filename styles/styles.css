@@ -519,6 +519,13 @@ body.about header {
   background-color: rgba(254, 245, 234, 0.85);
   height: auto;
 }
+@media only screen and (max-width: 970px) {
+  body.about header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+  }
+}
 body.about header .wrapper {
   width: 90%;
   display: flex;

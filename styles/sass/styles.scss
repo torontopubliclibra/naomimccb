@@ -129,6 +129,12 @@ body.about {
         background-color: rgba($white, 0.85);
         height: auto;
 
+        @media only screen and (max-width: $tablet) {
+            position: sticky;
+            width: 100%;
+            top: 0;
+        }
+
         .wrapper {
             width: 90%;
             display: flex;
