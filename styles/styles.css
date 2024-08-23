@@ -467,6 +467,7 @@ header .landing {
 @media only screen and (max-width: 768px) {
   header .landing {
     justify-content: left;
+    margin-top: 20px;
   }
 }
 header .landing .heading h1 {
