@@ -55,6 +55,7 @@ body {
 header {
     height: 350px;
     position: relative;
+    z-index: 100;
     .landing {
         background-color: rgba(#1E1E1E, 0.4);
         position: absolute;
@@ -117,7 +118,7 @@ footer {
     margin: 20px 0;
 }
 
-body.about {
+body.default {
     background-image: url("/assets/images/naomi-headshot.jpg");
     background-size: cover;
 
@@ -255,6 +256,20 @@ body.about {
                 width: 90%;
                 align-items: center;
             }
+        }
+    }
+}
+
+body.teaching {
+    background-image: url("/assets/images/clarinet.jpg");
+
+    main {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+        a {
+            color: $black;
         }
     }
 }
