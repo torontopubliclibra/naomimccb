@@ -211,7 +211,7 @@ body.default {
 
     main {
         background-color: rgba($color2, 0.8);
-        width: 35%;
+        width: 45%;
         min-width: 500px;
         margin-left: auto;
         margin-right: 5%;
@@ -225,8 +225,8 @@ body.default {
             background-color: rgba($color2, 0.9);
             width: 90%;
             min-width: 90%;
-            margin-top: 15%;
-            margin-bottom: 25%;
+            margin-top: 40%;
+            margin-bottom: 40%;
         }
 
         h2 {
@@ -238,6 +238,10 @@ body.default {
             @media only screen and (max-width: $tablet) {
                 font-size: 4rem;
             }
+        }
+
+        a {
+            color: $black;
         }
 
         p {
@@ -279,9 +283,9 @@ body.listen {
 
     main {
         background-color: rgba($color1, 0.8);
-        width: 40%;
-        margin-left: auto;
-        margin-right: 5%;
+        width: 50%;
+        margin-left: 5%;
+        margin-right: auto;
 
         a {
             color: $black;
